@@ -1,13 +1,6 @@
 //index.vue
 <template>
-    <div>
-        <ol>
-            <li v-for="todo in todos">
-                {{ todo.text }}
-            </li>
-        </ol>
-        <button @click="eClick()">事件</button>
-    </div>
+    <div class='title'>每日一笑</div>
 </template>
 
 <script>
@@ -29,10 +22,12 @@ export default {
   }
 }
 </script>
-<style lang="less">
-   @color:#fff;
-   @backgroud:./images/backgroud.jpg;
-   #app{
-       
-   }
+<style lang='less'>
+    .title{
+        color: #dae925;
+        font-size: 40px;
+        text-align: center;
+        line-height: 120px;
+        font-family: cursive;
+    }
 </style>

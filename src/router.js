@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import indexPage from './components/header.vue'
 import homePage from './views/home.vue'
-import aboutPage from './views/joke.vue'
-
+import jokePage from './views/joke.vue'
+import jokeImgPage from './views/joke-img.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -14,7 +13,11 @@ export default new Router({
     },
     {
       path: '/joke',
-      component: aboutPage
+      component: jokePage
+    },
+    {
+      path:'/joke-img',
+      component:jokeImgPage
     }
   ]
 })

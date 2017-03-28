@@ -1,21 +1,15 @@
 <!--App.vue是项目入口文件。-->
 <template>
     <div id="app">
-        <header-tab></header-tab>
-        <div class="nav-box">
-            <p class="nav-list">
-                <router-link class="nav-item" to="/">首页</router-link>
-                <router-link class="nav-item" to="/about">关于</router-link>
-            </p>
-        </div>
         <div>
             <router-view></router-view>
         </div>
+        <footer-tab></footer-tab>
     </div>
 </template>
 
 <script>
-import HeaderTab from './components/header.vue';
+import FooterTab from './components/footer.vue';
 export default {
   name: 'app',
   data () {
@@ -24,11 +18,17 @@ export default {
     }
   },
   components:{
-    HeaderTab
+    FooterTab
   }
 }
 </script>
 
 <style lang="less">
-  
+  @background:"./assets/images/backgroud.jpg";  
+  #app{
+    width:100%;
+    height:100%;
+    background:url(@background);
+    background-size:100%;
+    }
 </style>
