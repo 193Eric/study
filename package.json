@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "less": "^2.7.2",
-    "vue": "^2.2.4"
+    "vue": "^2.2.4",
+    "vue-resource": "^1.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",

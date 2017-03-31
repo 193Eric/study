@@ -1,9 +1,7 @@
 <!--App.vue是项目入口文件。-->
 <template>
     <div id="app">
-        <div>
-            <router-view></router-view>
-        </div>
+        <router-view></router-view>
         <footer-tab></footer-tab>
     </div>
 </template>
@@ -22,13 +20,9 @@ export default {
   }
 }
 </script>
-
-<style lang="less">
-  @background:"./assets/images/backgroud.jpg";  
+<style lang='less'>
   #app{
     width:100%;
     height:100%;
-    background:url(@background);
-    background-size:100%;
-    }
+  }
 </style>

@@ -1,33 +1,22 @@
 //index.vue
 <template>
-    <div class='title'>每日一笑</div>
+    <div class='home'>
+        <div class='title'>每日一笑</div>
+    </div>
 </template>
-
-<script>
-export default {
-  name: 'indexP',
-  data () {
-    return {
-       todos: [
-          { text: 'Learn JavaScript' },
-          { text: 'Learn Vue' },
-          { text: 'Build something awesome' }
-        ]
-    }
-  },
-  methods:{
-    eClick(){
-        console.log(9999);
-    }
-  }
-}
-</script>
 <style lang='less'>
+@background:"./../assets/images/backgroud.jpg";  
     .title{
         color: #dae925;
         font-size: 40px;
         text-align: center;
         line-height: 120px;
         font-family: cursive;
+    }
+ .home{
+    width:100%;
+    height:100%;
+    background:url(@background);
+    background-size:100%;
     }
 </style>
