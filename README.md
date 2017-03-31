@@ -10,7 +10,7 @@ Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。�
 ##### 演示效果
  ---
 
-![print](./src/assets/images/pig.gif)
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/pig.gif)
 
 ---
 ##### 环境
