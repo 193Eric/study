@@ -6,6 +6,13 @@ webpack+vue+vueRouter+es6 构建的简单实例项目
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
 
 Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。所以我用Vue写了一个小demo（适合初学者的）
+
+##### 演示效果
+ ---
+
+![print](./src/assets/images/pig.gif)
+
+---
 ##### 环境
  1. node v6.10.1
  2. cnpm 4.5.0
