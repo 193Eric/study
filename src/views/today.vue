@@ -1,10 +1,12 @@
 //about.vue
 <template>
     <div class='joke-content'>
-        <div class='joke-title'>内涵笑话</div>
-        <div class='content-item' v-for='item in data'>
-            {{item.content}}
-        </div>
+        <div class='joke-title'>今日运气</div>
+        <div class='content-item'>冲煞：{{data.chongsha}}</div>
+        <div class='content-item'>运势：{{data.jrhh}}</div>
+        <div class='content-item'>宜：{{data.yi}}</div>
+        <div class='content-item'>星座：{{data.xingzuo}}</div>
+        <div class='content-item'>日：{{data.zhiri}}</div>
     </div>
 </template>
 <script>
@@ -12,18 +14,18 @@ export default {
   name: 'joke',
   mounted(){
         let that = this;
-        this.$http.jsonp(this.apiUrl,{params:{key:this.key}},{emulateJSON:true})
+        this.$http.post(this.apiUrl,{showapi_appid:this.showapi_appid,showapi_sign:this.showapi_sign},{emulateJSON:true})
 				.then((res) => {
-                    console.log(JSON.parse(res.bodyText))
-					that.data = JSON.parse(res.bodyText).result;
+                    that.data = res.body.showapi_res_body;
 				}),function(error){
                     
                 }     
   },
   data () {
     return {
-       apiUrl:"http://v.juhe.cn/joke/randJoke.php",
-       key:"12175aade3931810fcd18dd2c0cf9474",
+       apiUrl:"http://route.showapi.com/856-1",
+       showapi_sign:"1688d17e4c41492daaef9e12d36dcd0d",
+       showapi_appid:"35517",
        data:'',
     }
   },
@@ -39,9 +41,9 @@ export default {
                  position: fixed;
                  top:0;
                  width:100%;
-                color: #dae925;
+                color: #fff;
                 font-size: 20px;
-                background:#000;
+                background:#00a6c6;
                 text-align: center;
                 line-height: 40px;
                 font-family: cursive;
