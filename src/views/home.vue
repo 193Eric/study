@@ -20,17 +20,17 @@ export default {
     news,
     navBox
   },
-  data () {
-    return {
-       
-    }
-  },
+  created(){
+    //用vuex设置状态，改变class;
+     this.$store.commit('mutationHome');
+  }
 }
 </script>
 <style lang='less'>
  .home{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
     .home-title{
       height:30px;
       background:#00a6c6;
