@@ -14,7 +14,7 @@ export default {
         let that = this;
         this.$http.post(this.apiUrl,{showapi_appid:this.showapi_appid,showapi_sign:this.showapi_sign},{emulateJSON:true})
 				.then((res) => {
-                    that.data = res.data.showapi_res_body.pagebean.contentlist
+                    that.data = res.data.showapi_res_body.pagebean.contentlist.splice(1,3)
 				}),function(error){
                     
                 }     

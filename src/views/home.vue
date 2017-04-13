@@ -5,17 +5,20 @@
             Eric百宝箱
         </div>
         <banner></banner>
+        <navBox></navBox>
         <news></news>
     </div>
 </template>
 <script>
 import banner from './../components/banner.vue';
 import news from './../components/news.vue';
+import navBox from './../components/nav-box.vue';
 export default {
   name: 'home',
   components:{
     banner,
-    news
+    news,
+    navBox
   },
   data () {
     return {
