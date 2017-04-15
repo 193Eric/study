@@ -15,9 +15,15 @@
         name:"footer",
         data(){
             return{
-                //利用vuex来控制状态变化
-                home:this.$store.state.home,
-                my:this.$store.state.my
+            }
+        },
+        //利用vuex来控制状态变化,vuex状态变化的时候，computed会变化。
+        computed : {
+            home(){
+                return this.$store.state.home
+            },
+            my(){
+                return this.$store.state.my
             }
         }
     }

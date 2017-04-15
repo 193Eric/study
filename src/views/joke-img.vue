@@ -15,11 +15,8 @@ export default {
         let that = this;
         this.$http.jsonp(this.apiUrl,{params:{key:this.key,type:'pic'}},{emulateJSON:true})
 				.then((res) => {
-                    console.log(JSON.parse(res.bodyText))
                     that.data = JSON.parse(res.bodyText).result;
-				}),function(error){
-                    
-                }     
+				}),function(error){}     
   },
   data () {
     return {
