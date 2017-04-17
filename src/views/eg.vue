@@ -22,6 +22,10 @@ export default {
                     
                 }     
   },
+  created(){
+    //用vuex设置状态，改变class;
+     this.$store.commit('mutationOhter');
+  },
   data () {
     return {
        apiUrl:"http://route.showapi.com/1211-1",

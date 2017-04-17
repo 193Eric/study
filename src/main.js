@@ -16,12 +16,16 @@ const vuex_store = new Vuex.Store({
   },
   mutations: {
     mutationHome(state) {
-      state.home = true;
-      state.my = false;
+      state.home = true
+      state.my = false
     },
     mutationMy(state) {
-      state.home = false;
-      state.my = true;
+      state.home = false
+      state.my = true
+    },
+    mutationOhter(state) {
+      state.home = false
+      state.my = false
     }
   }
 })

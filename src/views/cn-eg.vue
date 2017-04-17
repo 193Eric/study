@@ -31,6 +31,10 @@ export default {
        content:''
     }
   },
+  created(){
+    //用vuex设置状态，改变class;
+     this.$store.commit('mutationOhter');
+  },
   methods:{
       goApi(){
         let that = this;
