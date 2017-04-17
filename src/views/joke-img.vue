@@ -1,7 +1,7 @@
 //joke-img.vue
 <template>
-    <div class='joke-content'>
-        <div class='joke-title'>搞笑图片</div>
+    <div class='content'>
+        <div class='title'>搞笑图片</div>
         <div class='content-img' v-for='item in data'>
             <div class='img-title'>{{item.content}}</div>
             <img v-bind:src='item.url'/>
@@ -39,7 +39,6 @@ export default {
     img{
       width:250px;
       height:auto;
-    
     }
   }
 </style>
