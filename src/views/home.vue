@@ -2,7 +2,7 @@
 <template>
     <div class='home'>
         <div class='home-title'>
-            Eric百宝箱
+            百宝箱
         </div>
         <banner></banner>
         <navBox></navBox>
