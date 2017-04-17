@@ -1,16 +1,23 @@
 # webpack-vue-demo
-webpack+vue+vueRouter+es6 构建的简单实例项目 
+webpack+vue+vueRouter+vuex+es6 构建的简单实例项目 
 
 > github地址 https://github.com/193Eric/webpack-vue-vueRouter 
 
-> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
+> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^  
 
-Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。所以我用Vue写了一个小demo（适合初学者的）
+> 如果你觉得对你有帮助，可以点击folk，或者follow一下，我会不定时跟新一些有趣的东西.~~~ 0.0  
+
+
+Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。所以我用Vue写了一个demo.
+
+为了帮助理解vuex，在demo中还运用了vuex来对底部Icon进行变化。
+
+暂时只增加了6个功能，虽然是个小demo,不过能用上的技术，基本上都用上了，适合初学者学习。
 
 ##### 演示效果
  ---
 
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/pig.gif)
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page1.png)  
 
 ---
 ##### 环境
