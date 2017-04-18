@@ -10,7 +10,9 @@ webpack+vue+vueRouter+vuex+es6 构建的简单实例项目
 
 Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。所以我用Vue写了一个demo.
 
-为了帮助理解vuex，在demo中还运用了vuex来对底部Icon进行变化。
+为了理解vuex，demo中运用了vuex来对底部Icon进行变化。
+对于vuex，就像rudux的作者所说的**"您自会知道什么时候需要它"**  
+Vuex是专门为 Vue.js 设计的状态管理库，首先是创建一个 store ，里面可以有state(状态），mutations（引发状态改变的方法）..然后再每次对数据对象进行操作的时候，进行commit（mutations 的方法名）用来触发mutations的方法来改变state状态.. 然后vue的组件中都有computed,当state改变的时候会触发computed,所以我们就可以根据state的值，对页面进行修改。  
 
 暂时只增加了6个功能，虽然是个小demo,不过能用上的技术，基本上都用上了，适合初学者学习。
 ## Demo的主要功能有：
@@ -28,8 +30,7 @@ Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。�
 ![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page1.png) 
 ![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page2.png)
 ![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page3.png)  
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page4.png) 
-
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page4.png)
 ![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page5.png) 
 ---
 ##### 环境
