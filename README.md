@@ -10,7 +10,7 @@ webpack+vue+vueRouter+vuex+es6 构建的简单实例项目
 
 Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。所以我用Vue写了一个demo.
 
-为了帮助理解vuex，在demo中还运用了vuex来对底部Icon进行变化。
+为了理解vuex，demo中运用了vuex来对底部Icon进行变化。
 
 暂时只增加了6个功能，虽然是个小demo,不过能用上的技术，基本上都用上了，适合初学者学习。
 ## Demo的主要功能有：
