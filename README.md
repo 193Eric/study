@@ -22,11 +22,15 @@ Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。�
 - 历史上的今天  
 - 每日励志英文
 
-##### 演示效果
+##### 演示效果（部分图片）
  ---
 
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page1.png)  
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page1.png) 
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page2.png)
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page3.png)  
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page4.png) 
 
+![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page5.png) 
 ---
 ##### 环境
  1. node v6.10.1
