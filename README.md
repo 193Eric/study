@@ -6,12 +6,12 @@ webpack+vue+vueRouter+vuex+es6 构建的简单实例项目
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^  
 
 > 如果你觉得对你有帮助，可以点击folk，或者follow一下，我会不定时跟新一些有趣的东西.~~~ 0.0  
-
-
-Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。这里是我用vue写的一个实用的demo.
-
-为了理解vuex，demo中运用了vuex来对底部Icon进行变化。  
+  
 对于vuex，就像rudux的作者所说的"**您自会知道什么时候需要它**"  
+为了理解vuex，demo中运用了vuex来对底部Icon进行变化。
+
+# Vuex  
+
 > Vuex是专门为 Vue.js 设计的状态管理库   
 
 > 首先是创建一个 store ，里面有:  
