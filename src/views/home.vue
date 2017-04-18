@@ -2,7 +2,7 @@
 <template>
     <div class='home'>
         <div class='home-title'>
-            百宝箱
+            Box
         </div>
         <banner></banner>
         <navBox></navBox>
