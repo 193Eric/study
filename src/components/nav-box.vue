@@ -11,8 +11,10 @@
     </div>
 </template>
 <style lang='less'>
+.images(@img:other){
+    background-image:url("./../assets/images/@{img}.jpg");
+}
     .box{
-        display:inline-block;
         width:100%;
         margin:10px 0;
         .item{
@@ -33,25 +35,25 @@
             }
         
             .luck{
-                background-image:url("./../assets/images/luck.jpg");
+                .images(luck)
             }
             .joke-img{
-                background-image:url("./../assets/images/joke.jpg");
+                .images(joke)
             }
             .today{
-                background-image:url("./../assets/images/today.jpg");
+                .images(today)
             }
             .eg{
-                background-image:url("./../assets/images/eg.jpg");
+                .images(eg)
             }
             .ip{
-                background-image:url("./../assets/images/ip.jpg");
+                .images(ip)
             }
             .cn-eg{
-                background-image:url("./../assets/images/cn-eg.jpg");
+                .images(cn-eg)
             }
             .other{
-                background-image:url("./../assets/images/other.jpg");
+                .images()
             }
         }
     }
