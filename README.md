@@ -10,7 +10,7 @@ webpack+vue+vueRouter+vuex+es6 构建的简单实例项目
 对于vuex，就像rudux的作者所说的"**您自会知道什么时候需要它**"  
 为了理解vuex，demo中运用了vuex来对底部Icon进行变化。
 
-### Vuex  
+#### Vuex  
 
 > Vuex是专门为 Vue.js 设计的状态管理库   
 
