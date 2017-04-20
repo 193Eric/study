@@ -24,7 +24,7 @@ export default {
   },
   created(){
     //用vuex设置状态，改变class;
-     this.$store.commit('mutationOhter');
+     this.$store.dispatch("inOther");
   },
   data () {
     return {

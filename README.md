@@ -16,10 +16,13 @@ Vue很轻量，它写组件的方式非常舒服。代码风格也很干净。�
 
 > 首先是创建一个 store ，里面有:  
 
-- state(状态)  
-- mutations（引发状态改变的方法）  
+- state(状态)
 
->然后在每次对数据对象进行操作的时候，进行commit（mutations 的方法名）用来触发mutations的方法来改变state状态..   
+- mutations（引发状态改变的方法）
+
+- actions(触发mutations的方法)
+
+>然后在每次对数据对象进行操作的时候，进行dispatch（action 的方法名）用来触发mutations的方法来改变state状态..   
 
 >vue的组件中都有computed,当state改变的时候会触发computed,所以我们就可以根据state的值，对页面进行修改。  
 

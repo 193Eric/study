@@ -22,17 +22,11 @@
 export default {
   name: 'eg',
   mounted(){
-        let that = this;
-        this.$http.post(this.apiUrl,{showapi_appid:this.showapi_appid,showapi_sign:this.showapi_sign},{emulateJSON:true})
-				.then((res) => {
-                    that.data = res.body.showapi_res_body;
-				}),function(error){
-                    
-                }     
+
   },
   created(){
     //用vuex设置状态，改变class;
-     this.$store.commit('mutationOhter');
+     this.$store.dispatch("inOther");
   },
   data () {
     return {
