@@ -14,19 +14,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: homePage
+      component: resolve => require(['./views/home.vue'], resolve)
     },
     {
       path: '/my',
       component: My
     },
     {
-      path:'/joke-img',
-      component:jokeImgPage
+      path: '/joke-img',
+      component: jokeImgPage
     },
     {
-      path:'/luck',
-      component:Luck
+      path: '/luck',
+      component: Luck
     },
     {
       path: '/today',
@@ -43,6 +43,6 @@ export default new Router({
     {
       path: '/cn-eg',
       component: CnEg
-    },
+    }
   ]
 })
