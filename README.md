@@ -1,6 +1,6 @@
 # webpack-vue-demo
 webpack+vue+vueRouter+vuex+es6 构建的简单实例项目 
-
+  
 > github地址 https://github.com/193Eric/webpack-vue-vueRouter 
 
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^  
