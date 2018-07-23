@@ -1,109 +1,41 @@
-# webpack-vue-demo
-webpack+vue+vueRouter+vuex+es6 构建的简单实例项目 
-  
-> github地址 https://github.com/193Eric/webpack-vue-vueRouter 
+# Node.js入门教程
 
-> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^  
+> 学习Node.js有段时间了，入门时很迷茫。于是想以自己的入门水平来写这教程给未入门的朋友。希望能够帮助到更多刚入门朋友少一点儿迷茫。
 
-> 如果你觉得对你有帮助，可以点击folk，或者follow一下，我会不定时跟新一些有趣的东西.~~~ 0.0  
-  
-对于vuex，就像rudux的作者所说的"**您自会知道什么时候需要它**"  
-为了理解vuex，demo中运用了vuex来对底部Icon进行变化。
+*由于水平有限，编写的过程难免会有诸多错误，也希望大家在看的过程中发现了问题及时联系*
 
-#### Vuex  
+**抛砖引玉**
 
-> Vuex是专门为 Vue.js 设计的状态管理库   
+## 介绍
 
-> 首先是创建一个 store ，里面有:  
+这个课程不是文档式的，也不是纯案例。而是在学习每个知识点后，提供个Node.js 实战例子来稳固这些知识点，希望可以通过每一节精心安排的课程，让 Node.js 的初学者们可以循序渐进地，有目的地开展 Node.js 的学习，少一点儿迷茫。
 
-- state(状态)
+## 目录
 
-- mutations（引发状态改变的方法）
+- Lesson1 - [搭建Node.js开发环境](/lesson1)
+- Lesson2 - [了解并使用Http模块](/lesson2)
+- Lesson3 - [Node模块与npm](/lesson3)
+- Lesson4 - [搭建静态文件服务器](/lesson4)
+- Lesson5 - [Node中的stream (流)](/lesson5)
+- Lesson6 - [Node的readline (逐行读取)](/lesson6)
+- Lesson7 - [Node中的网络编程](/lesson7)
+- Lesson8 - [Node操作数据库](/lesson8)
+- Lesson9 - [Koa快速入门教程](/lesson9)
+- Lesson10 - [Node.js使用Nodemailer发送邮件](/lesson10)
+- Lesson11 - [node爬虫：送你一大波美腿图](/lesson11)
+- Lesson12 - [node打造微信个人号机器人](/lesson12)
 
-- actions(触发mutations的方法)
-
->然后在每次对数据对象进行操作的时候，进行dispatch（action 的方法名）用来触发mutations的方法来改变state状态..   
-
->vue的组件中都有computed,当state改变的时候会触发computed,所以我们就可以根据state的值，对页面进行修改。  
-
-暂时只增加了6个功能，虽然是个小demo,不过能用上的技术，基本上都用上了，适合初学者学习。
-## Demo的主要功能有：
-
-- 查询当日运势
-- 搞笑图片  
-- 查询当前ip  
-- 英汉互译  
-- 历史上的今天  
-- 每日励志英文
-
-##### 演示效果（部分图片）
- ---
-
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page1.png) 
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page2.png)
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page3.png)  
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page4.png)
-![print](https://github.com/193Eric/webpack-vue-vueRouter/blob/master/src/assets/images/page5.png) 
----
-##### 环境
- 1. node v6.10.1
- 2. cnpm 4.5.0
- 3. npm 3.10.10
-
-##### 技术栈
-
-> [vue]
-
-> [vue-router]
-
-> [vuex]  
-
-> [vue-resource]
-
-> [webpack]
-
-> [es6-babel]
-
-> [less]
+## more
+- [Node相关入门资料](/tutorials)
+- [《Node.js从入门到上线》更新中](https://github.com/liuxing/abc-blog)
 
 
-### 目录结构
-<pre>
-.
-├── README.md           
-├── dist                     // 项目build目录
-├── package.json             // 项目配置文件
-├── src                      // 生产目录
-│   ├── assets               // css js 和图片资源
-│   ├── components           // 各种组件
-│   ├── views                // 各种页面
-│   ├── router.js            // 路由配置
-│   └── app.vue              // 根组件
-│   └── main.js              // Webpack 预编译入口         
-├── index.html               // 项目入口文件
-├── webpack.config.js        //webpack配置文件
-├── .gitignore               //git忽略文件
-</pre>
-### 安装
-项目地址：（使用`git clone`）
+## 联系作者
 
-```shell
-git clone https://github.com/193Eric/webpack-vue-vueRouter.git
-```
+- 邮箱：[chn.liuxing@gmail.com](mailto:chn.liuxing@gmail.com)
 
-通过`npm`安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/))，使用npm安装依赖模块可能会很慢，建议换成[cnpm](http://cnpmjs.org/)
+## 微信公众号：JavaScript之禅 
+![JavaScript之禅](http://ommpd2lnj.bkt.clouddn.com/qrcode_for_gh_dddbed02f672_344.jpg?imageView2/1/w/200/h/200)
+## License
 
-```shell
-npm install -g cnpm --registry=http://registry.npm.taobao.org
-```
-
-```bash
-# 安装依赖模块
-cnpm install
-
-npm run build
-
-npm run dev
-
-
-然后会自动弹出浏览器地址 http://localhost:8081
+本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可。![知识共享署名-非商业性使用 4.0 国际许可协议](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
