@@ -154,10 +154,7 @@ rl.on('line', (line) => {
 
 现在在快命令行中试试我们一起完成的这个小案例吧！！！
 
-*现在我们已经基本完成了命令行百度搜索这个小案例，我们还可为他加入更多的功能.。如，我们可以把它开发为全局命令行工具，只需要一个命令便可调用。如果有兴趣可以参考[Node命令行工具开发【看段子】](http://www.xingxin.me/posts/58cc8e617ed80d4b7974f3da)、[node命令行小工具开发【翻译小工具】](http://www.xingxin.me/posts/58c9014ffc98493874be8301)，建议大家都去试一试，实现更多有趣的功能*
 
 ## 相关链接
 - [Node中文网](http://nodejs.cn/api/readline.html)
-- [Node命令行工具开发【看段子】](http://www.xingxin.me/posts/58cc8e617ed80d4b7974f3da)
-- [node命令行小工具开发【翻译小工具】](http://www.xingxin.me/posts/58c9014ffc98493874be8301)
 
