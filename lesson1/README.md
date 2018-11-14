@@ -1,4 +1,4 @@
-# 【Node入门教程】搭建Node.js开发环境
+# 【Node教程】搭建Node.js开发环境
 HELLO WORLD
 > 本章节我们将向大家介绍在各个平台上(win,mac与ubuntu)安装Node.js的方法。本安装教程以Latest LTS Version: **v6.10.2** (includes npm 3.10.10)版本为例
 

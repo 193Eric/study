@@ -1,5 +1,4 @@
-# Node入门教程-了解并使用Http模块
-传送门：[GitHub地址](https://github.com/ogilhinn/node-abc)
+# Node教程-了解并使用Http模块
 >上一节，我们用Http模块搭建了一个hello world服务器。现在我们就来了解了解Http模块，学习它的常用API，并在最后实现两个小案例。
 >http模块主要用于搭建HTTP服务。使用Node搭建HTTP服务器非常简单。
 
