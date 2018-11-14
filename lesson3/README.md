@@ -216,9 +216,9 @@ Is this ok? (yes) yes
 
 ```bsah
 $ npm adduser
-Username: liuxing
+Username: admin
 Password:
-Email: (this IS public) ogilhinn@gmail.com
+Email: (this IS public) admin@qq.com
 
 ```
 

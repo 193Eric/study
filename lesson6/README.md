@@ -1,5 +1,5 @@
 # Node的readline (逐行读取)
-传送门：[github地址](https://github.com/ogilhinn/node-abc/tree/master/lesson6)
+
 > `readline` 模块提供了一个接口，用于从可读流（如 process.stdin）读取数据，每次读取一行
 
 先来看这个基本示例：
@@ -151,7 +151,6 @@ rl.on('line', (line) => {
 ...
 ```
 
-**源码地址: [github](https://github.com/ogilhinn/node-abc/tree/master/lesson6)**
 
 现在在快命令行中试试我们一起完成的这个小案例吧！！！
 

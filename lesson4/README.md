@@ -1,6 +1,6 @@
 #  🔨Node入门教程-搭建静态文件服务器
 
-传送门：[GitHub地址](https://github.com/ogilhinn/node-abc/tree/master/lesson4)
+
 
 > 通过前面的几篇介绍，我们这个教程算正式打开Node开发的大门，学习了[环境搭建](http://www.xingxin.me/posts/58e651fcab572f17b0297880)、然后为了提高各位看官的新趣粗略的介绍了[Http模块](http://www.xingxin.me/posts/58e73d13ab572f17b0297881)、之后又了解了[Node的模块](http://www.xingxin.me/posts/58ecf9ffab572f17b0297882)。之前说过，**我们将通过实例来学习Node**，从这一篇开始，我们就将用实例来学习各个模块。
 
@@ -281,7 +281,6 @@ Press rs for restarting the process.
 🚩现在我们这个服务器跑了起来，而且每次更该文件后不需要手动重启服务。
 
 #### 2.处理URL请求
-现在我们就要url模块与path来识别请求的文件*(还记得第二节了解的[url模块吗](https://github.com/ogilhinn/node-abc/tree/master/lesson2)？)*
 
 ```javascript
 const http = require('http')
@@ -381,7 +380,7 @@ else{
 
 到此我们这个**Node静态文件服务器**就算搭建完成👏👏👏，当然了还有许多优化的地方如：缓存、Gzip、页面美化等等…在此就不做介绍了，请自行搜索了解。
 
-源码地址[node-abc](https://github.com/ogilhinn/node-abc/tree/master/lesson4)
+
 
 ## 总结：
 

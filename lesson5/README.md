@@ -1,6 +1,6 @@
 #  Node入门教程-Node中的stream (流)
 
-传送门：[GitHub地址](https://github.com/ogilhinn/node-abc/tree/master/lesson5)
+
 
 > 流（stream）在 Node.js 中是处理流数据的抽象接口（abstract interface）。 `stream` 模块提供了基础的 API 。使用这些 API 可以很容易地来构建实现流接口的对象。
 >
@@ -253,7 +253,6 @@ copy(paths)
 
 ### 相关连接
 
-- [GitHub地址](https://github.com/ogilhinn/node-abc/tree/master/lesson5)
 - [Node中文网](http://nodejs.cn/api/stream.html)
 - [阮一峰](http://javascript.ruanyifeng.com/nodejs/stream.html)
 - [nodejs中流(stream)的理解](https://segmentfault.com/a/1190000000519006)

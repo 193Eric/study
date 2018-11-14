@@ -186,7 +186,6 @@ UI采用了漂亮的[UIkit3](http://www.getuikit.net/v3/)
 
 ![Node图书管理](http://ommpd2lnj.bkt.clouddn.com/librarian.png)
 
-传送门： [Github](https://github.com/ogilhinn/node-abc/tree/master/lesson8) 
 
 *可以去github拉下来，然后`npm install ` 然后`node index.js`即可跑起来*
 
@@ -465,7 +464,7 @@ router.post('/:bookId/edit', (req, res) => {
 module.exports = router
 ```
 
-OK!!!到此，我们这小项目基本就算完成了。代码详见[GitHub](https://github.com/ogilhinn/node-abc/tree/master/lesson8) 作为一个学习案例，这算完成了，但其中可以优化完善的地方还很多，大家可以自行探索···
+OK!!!到此，我们这小项目基本就算完成了，但其中可以优化完善的地方还很多，大家可以自行探索···
 
 **抛砖引玉**
 
