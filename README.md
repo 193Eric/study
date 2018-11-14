@@ -22,7 +22,7 @@
 - 6 - [Node的readline (逐行读取)](/lesson6)
 - 7 - [服务器编程](/lesson7)
 - 8 - [操作数据库](/lesson8)
-- 9 - [node爬虫](/lesson9)
+- 9 - [node爬虫-爱奇艺电影](/lesson9)
 - 10 - [koa2建立接口服务器](/lesson10)
 - 11 - [typescript在node中的应用](/lesson11)
 - 12 - [node中nginx反向代理](/lesson12)
