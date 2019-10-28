@@ -46,3 +46,4 @@ getter,和setter 两个是通过init的时候的Object.defineProperty来设置�
 因为我们已经有了虚拟dom树了，我们可以知道html就是虚拟dom映射过去的，那如果我们只修改一个小小的节点，难道就需要更新整个dom树了嘛，那是肯定不行的  
 
 patch里面是通过比较新老vnode 通过diff算法算出**差异**，更新dom就只要更新差异部分就行了。
+
