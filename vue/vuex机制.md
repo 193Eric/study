@@ -22,9 +22,63 @@ vue里面是提供了一个use方法来安装插件的，内部会调用插件�
     }
     Vue = _Vue
     applyMixin(Vue) 
-    // applyMixin这个方法有两个作用，一个是把通过Vue.mixin方法把vuexInit 方法混淆进 beforeCreate 钩子中，另个一个是把store挂载在Vue的Data上面响应化。
+    // applyMixin这个方法有两个作用，一个是把通过Vue.mixin方法把vuexInit 方法混淆进 beforeCreate 钩子中，另个一个是把store挂载在Vue的上面,可以直接通过this.$store访问。
   }
 ```
+--- 
+
+### Store
+
+我们可以看源码的store.js部分，这里是vuex的精髓部分，又简单又美~~~  
+
+里面有一个**resetStoreVM**方法，这个方法干了两件事： 
+
+- 第一是把store里面的每个getter方法Object.defineProperty了一遍，当我们调用this.$store.getters.xxx时候，会直接访问store._vm[xxx]，具体源码：
+```
+    Object.defineProperty(store.getters, key, {
+      get: () => store._vm[key],
+      enumerable: true // for local getters
+    })
+```
+
+- 第二是实例化了一个Vue对象，把store里面的state放到了data里面，命名为$$state，进行响应式(具体可以看响应式那一篇)，state会被依赖收集到Dep里面，在被修改的时候更新对应视图。
+
+```
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    }
+  })
+```
+
+---
+
+### Commit
+
+commit 方法是用来触发 mutation 的。
+
+```
+    const mutation = { type, payload }
+    const entry = this._mutations[type]
+
+    this._withCommit(() => {
+      entry.forEach(function commitIterator (handler) {
+        handler(payload) // 循环触发所有该type下面的mutation
+      })
+    })
+```
+
+### dispatch
+
+dispatch 方法是用来触发action 的。 （可以包括异步）
+
+```
+    const entry = this._actions[type]
+    const result = entry.length > 1
+      ? Promise.all(entry.map(handler => handler(payload)))
+      : entry[0](payload)
+```
+
 
 
 
