@@ -7,7 +7,7 @@
 
 这里想从全局讲一下vue的全局机制，Vue.js 内部是怎么的一个流程
 
-![image](./image/intro.png)
+![image](https://github.com/193Eric/blog/blob/master/vue/image/intro.png)
 
 ### 初始化过程  
 
