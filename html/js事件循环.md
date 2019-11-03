@@ -30,3 +30,6 @@
 
 node的事件循环要比浏览器中的要复杂一点，node中事件循环的实现是依靠的libuv引擎（因为没有浏览器嘛~）。
 
+**其实nodejs与浏览器的区别，就是nodejs的 MacroTask 分好几种，而这好几种又有不同的 task queue，而不同的 task queue 又有顺序区别，而 MicroTask 是穿插在每一种【注意不是每一个！】MacroTask 之间的。**
+
+
