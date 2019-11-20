@@ -18,7 +18,7 @@
 - 3 - [patch和Diff算法](/vue/patch和Diff算法.md)
 - 4 - [nextTick更新机制](/vue/nextTick更新机制.md)
 - 5 - [vuex机制](/vue/vuex机制.md)
->浏览器
+>HTML
 - 1 - [浏览器渲染过程剖析](/html/浏览器渲染过程剖析.md)
 - 2 - [js事件循环](/html/js事件循环.md)
 - 3 - [v8干了些什么?](/html/v8干了些什么.md)
