@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "mongoose": "^4.10.1",
+    "mongoose": "^5.7.13",
     "mysql": "^2.13.0",
     "nunjucks": "^3.0.0"
   },
