@@ -1,5 +1,4 @@
 const express = require("express");
-const app = express();
 
 const fs = require('fs');
 let path = require("path");
@@ -15,7 +14,6 @@ function createRenderer (bundle, options) {
   return createBundleRenderer(bundle, Object.assign(options, {
     // for component caching
     // this is only needed when vue-server-renderer is npm-linked
-    basedir: resolve('./dist'),
     // recommended for performance
     runInNewContext: false
   }))
@@ -28,7 +26,6 @@ if(isProd){
   // to automatically infer preload/prefetch links and directly add <script>
   // tags for any async chunks used during render, avoiding waterfall requests.
   const clientManifest = require('./dist/vue-ssr-client-manifest.json')
-  
   renderer = createRenderer(bundle, {
     template,
     clientManifest
@@ -36,14 +33,14 @@ if(isProd){
 
 }else{
   readyPromise = require('./build/server.dev.conf.js')(
-    app,
+    server,
     templatePath,
     (bundle, options) => {
       renderer = createRenderer(bundle, options)
     }
   )
 }
-
+server.use(express.static('./dist'))
 // 在服务器处理函数中……
 server.get('*', (req, res) => {
   const context = { url: req.url }
@@ -52,7 +49,6 @@ server.get('*', (req, res) => {
   if(isProd){
     renderer.renderToString(context, (err, html) => {
       // 处理异常……
-      
       res.end(html)
     })
   }else{
@@ -64,7 +60,6 @@ server.get('*', (req, res) => {
     })
   }
 })
-
 server.listen(3001, () => {
     console.log('服务已开启')
 })

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>News List</h2>
+    <h2 @click="hanlde">News List</h2>
     <ul>
       <li v-for="(item,index) in list.data.list " :key ="index">
         <a
@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     hanlde(){
-
+      console.log('客户端挂载完毕!')
     }
   },
   computed: {

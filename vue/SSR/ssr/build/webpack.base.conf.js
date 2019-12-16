@@ -14,6 +14,7 @@ module.exports = {
   context: path.resolve(__dirname, '../'),
   output: {
     path: path.resolve(__dirname, '../dist'),
+    publicPath: process.env.NODE_ENV = 'production' ? '/':'/dist/',
     filename: '[name].[chunkhash].js'
   },
   resolve: {
