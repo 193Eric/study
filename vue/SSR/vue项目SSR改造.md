@@ -38,9 +38,7 @@ vue项目是通过虚拟 DOM来挂载到html的，所以对spa项目，爬虫才
 
 ### 二、改造前后目录文件对比
 
-<img src="./../image/spa.png" width = "50%" height = "500" div align=left />   
-<img src="./../image/ssr.png" width = "50%" height = "600" div align=left />  
-  
+![](./../image/ssr.png) 
 
 黄线部分是改造后新增的文件，怎么样，是不是觉得差别不大，总体架构上只有6个文件的差别。(#^.^#) 我们来理一理这些新增的文件。
 
