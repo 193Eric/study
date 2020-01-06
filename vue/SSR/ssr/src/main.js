@@ -22,4 +22,6 @@ export function createApp () {
 
   // 返回 app 和 router
   return { app, router, store }
+
+  
 }
