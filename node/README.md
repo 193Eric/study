@@ -23,7 +23,7 @@
 - 7 - [服务器编程](/lesson7)
 - 8 - [操作数据库](/lesson8)
 - 9 - [node爬虫-爱奇艺电影](/lesson9)
-- 10 - [typescript在node中的应用](/lesson10)
+- 10 - [彻底弄懂nodejs多进程](/lesson10)
 
 ## 联系作者
 
