@@ -22,7 +22,7 @@
 - 1 - [浏览器渲染过程剖析](/html/浏览器渲染过程剖析.md)
 - 2 - [js事件循环](/html/js事件循环.md)
 - 3 - [v8干了些什么?](/html/v8干了些什么.md)
-- 4 - [浏览器如何防gank?](/html/浏览器如何防gank?.md)
+- 4 - [浏览器如何防gank?](/html/浏览器如何防gank.md)
 - 5 - [你不知道的web性能优化](/html/你不知道的web性能优化.md)
 - 6 - [深入HTTP缓存机制和原理](/html/深入HTTP缓存机制和原.md)
 >Node
