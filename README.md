@@ -36,7 +36,8 @@
 - 8 - [操作数据库](/node/lesson8)
 - 9 - [node爬虫-爱奇艺电影](/node/lesson9)
 > 其他
-- 1 - [15分钟学会vue项目改造成SSR](/vue/SSR/vue项目SSR改造.md)
+- 1 - [15分钟学会vue项目改造成SSR](/other/SSR)
+- 2 - [手写一个webpack（loader、plugin）](/other/kwebpack)
 
 ## 联系作者
 
