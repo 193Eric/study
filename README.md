@@ -35,6 +35,15 @@
 - 7 - [服务器编程](/node/lesson7)
 - 8 - [操作数据库](/node/lesson8)
 - 9 - [node爬虫-爱奇艺电影](/node/lesson9)
+> 前端大基建
+- 1 - [项目初始化]()
+- 2 - [接口联调]()
+- 3 - [数据埋点分析]()
+- 4 - [组件体系]()
+- 5 - [CI/CD云端构建发布]()
+- 6 - [性能错误监控方案]()
+- 7 - [web缓存架构]()
+- 8 - [代码规范](https://github.com/193Eric/web-guide)
 > 其他
 - 1 - [15分钟学会vue项目改造成SSR](/other/SSR)
 - 2 - [手写一个webpack（loader、plugin）](/other/kwebpack)
