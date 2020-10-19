@@ -79,5 +79,4 @@ connection.end()
 
 ##  相关链接
 
-- [个人博客](http://www.xingxin.me/)
 - [MySQL菜鸟教程](http://www.runoob.com/mysql/mysql-tutorial.html)
