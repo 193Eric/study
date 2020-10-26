@@ -10,7 +10,7 @@ GitLab CI/CD 是一个内置在GitLab中的工具，用于通过持续方法进�
 
 
 
-#### GitLab CI/CD 是如何工作的？
+#### GitLab CI/CD 是如何工作的？ 
 
 使用GitLab CI/CD，你需要一个托管在GitLab上的应用程序代码库，并且在根目录中的`.gitlab-ci.yml`文件中指定构建、测试和部署的脚本。  
 
