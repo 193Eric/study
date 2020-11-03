@@ -9,7 +9,7 @@
 - 证书 确保当前发送数据单位可信
 
 **https采用非对称加密算法+对称加密算法来保证数据的安全。**
-
+  
 **HTTPS 在内容传输的加密上使用的是对称加密，非对称加密只作用在证书验证阶段**
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201028163226789.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MDczODg1,size_16,color_FFFFFF,t_70#pic_center)
