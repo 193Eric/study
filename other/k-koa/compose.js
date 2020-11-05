@@ -51,21 +51,4 @@ module.exports = compose
 
 
 
-// 执行流程 先执行fn1, 
-// console.log(fn1)
-// 遇到next(),挂起等待fn2的promise执行的reslove ， 因为resolve返回里面有个执行函数，所以是异步的，要等待函数里面的都执行完 才会往下走。
-// 执行 fn2
-// console.log(fn2)
-// delay 2s
-// 遇到next ,挂起等待fn3的promise执行的reslove resolve 
-// 执行fn3
-// console.log(fn3)
-// 没有遇到next , 直接取middlewares[3]为空，返回resolve()
-// 此时 fn2得到fn3的resolve,执行fn2,
-
-// conosle.log(fn2end)
-// 然后fn1得到fn2的resolve
-
-// console.log(fn1end)
-
 
