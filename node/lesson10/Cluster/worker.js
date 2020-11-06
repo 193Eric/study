@@ -5,6 +5,6 @@ process.on('message', (msg, tcpServer) => {
       setTimeout(() => {
         socket.end('Request handled by worker-' + process.pid);
       }, 100);
-    })
+    })  
   }
 });

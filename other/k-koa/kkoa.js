@@ -33,7 +33,7 @@ class KKoa {
     });
     server.listen(...args);
   }
-
+  
   use(middleware) { // 中间件用Use来注册
     this.middlewares.push(middleware)
   }
