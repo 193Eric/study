@@ -49,9 +49,10 @@
 - 2 - [手写一个webpack（loader、plugin）](/other/kwebpack)
 - 3 - [10分钟彻底搞懂https](/other/https)
 - 4 - [koa2源码解读和实现](/other/k-koa)
-- 5 - [更优雅的node部署(cluster,nginx,pm2,docker)](/other/k-koa)
+- 5 - [更优雅的node部署(cluster,nginx,pm2,docker)](/other/docker)
 
 ## 联系作者
 
 - 邮箱：[373986529@qq.com](mailto:373986529@qq.com)
+
 
