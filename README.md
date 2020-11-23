@@ -51,6 +51,7 @@
 - 4 - [koa2源码解读和实现](/other/k-koa)
 - 5 - [更优雅的node部署(cluster,nginx,pm2,docker)](/other/docker)
 - 6 - [前端学数据结构，一文就够了](/other/dataStructures)
+- 7 - [常见的设计模式](/other/dataPattern)
 
 ## 联系作者
 
