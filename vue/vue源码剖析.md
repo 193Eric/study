@@ -1,20 +1,20 @@
+
 # Vue源码剖析
 
-***网上看了好多的博客和源码教程，感觉很多仔细的地方没有说清，而且在一些复杂的部分加了好多的描述，所以就想自己也写下心得, 方便自己, 方便他人***
+***网上看了好多的博客和源码教程，感觉很多仔细的地方没有说清，而且在一些复杂的部分加了好多的描述，所以就想自己也写下心得, 方便自己, 方便他人，有兴趣的同学可以关注我的github里面有我之前一些博文  [github/193Eric](https://github.com/193Eric/blog)***
 
 ---
 ### Vuejs全局机制
 
 这里想从全局讲一下vue的全局机制，Vue.js 内部是怎么的一个流程
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191025190623781.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MDczODg1,size_16,color_FFFFFF,t_70)
 
-![image](./image/intro.png)
-
-### 初始化过程    
+### 初始化过程  
 
 就像我们所知道的，vue是需要一个new Vue()的过程，在这之中，首先会调用_init()函数进行初始化，它会初始化生命周期、事件、 props、 methods、 data、 computed 与 watch 等.其中最重要的是通过 Object.defineProperty 设置 setter 与 getter 函数，用来实现**响应式**以及**依赖收集**  
 
-在一系列的初始化之后，会执行$mount（数据挂载），然后需要compile编译。  
-compile编译可以分成 parse、optimize 与 generate 三个阶段，最终需要得到 render function。
+在一系列的初始化之后。会执行$mount（挂载组件），然后执行compile编译。  
+compile编译可以分成 parse、optimize 与 generate 三个阶段，最终需要得到 render function。（所以$mount,是经过compile最终形成renderfunction）
 
 - parse
   用正则的方式来解析template的指令，class,id等等 生成ast语法树
@@ -40,7 +40,7 @@ getter,和setter 两个是通过init的时候的Object.defineProperty来设置�
 
 看图我们就知道，render function字符串最终会生成Virtual DOM, 是reder function通过转化成vnode来生成。virtual dom 是一颗用vnode构成的虚拟树，因为它不依赖真实环境是虚拟的，所以就为跨平台提供了可能。
 
----
+--
 ### patch （渲染）
 
 因为我们已经有了虚拟dom树了，我们可以知道html就是虚拟dom映射过去的，那如果我们只修改一个小小的节点，难道就需要更新整个dom树了嘛，那是肯定不行的  
