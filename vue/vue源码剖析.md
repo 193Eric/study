@@ -28,7 +28,7 @@ compile编译可以分成 parse、optimize 与 generate 三个阶段，最终需
 
 getter,和setter 两个是通过init的时候的Object.defineProperty来设置的，
 
-当render function的时候会触发getter来获取值，这个时候就会进行**依赖收集**生成了一个watcher，并加入当前对象值的闭包Dep数组中。  
+数据观测阶段执行了defineReactive()，compile过程用到的数据会得以访问，这个时候就会进行**依赖收集**生成了一个watcher，并加入当前对象值的闭包Dep数组中。  
 
 之后当我们修改该对象值得时候，会触发setter同时会通知watcher，去循环触发dep里面的watcher通过调用update来触发视图更新。
 
