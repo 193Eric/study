@@ -18,13 +18,34 @@
 - 3 - [patch和Diff算法](/vue/patch和Diff算法.md)
 - 4 - [nextTick更新机制](/vue/nextTick更新机制.md)
 - 5 - [vuex机制](/vue/vuex机制.md)
->HTML
+>React源码
+- 1 - [从源码角度了解react工作原理](/react/code.md)
+>浏览器
 - 1 - [浏览器渲染过程剖析](/html/浏览器渲染过程剖析.md)
 - 2 - [js事件循环](/html/js事件循环.md)
 - 3 - [v8干了些什么?](/html/v8干了些什么.md)
 - 4 - [浏览器如何防gank?](/html/浏览器如何防gank.md)
 - 5 - [你不知道的web性能优化](/html/你不知道的web性能优化.md)
 - 6 - [深入HTTP缓存机制和原理](/html/深入HTTP缓存机制和原理.md)
+> 前端基建架构方案
+- 1 - [项目初始化](/base/k-cli)
+- 2 - [接口联调](/base/RAP)
+- 3 - [数据埋点分析](/base/GA)
+- 4 - [组件体系](/base/k-components)
+- 5 - [CI/CD云端构建发布](/base/Gitlab-cicd)
+- 6 - [性能错误监控方案](/base/sentry)
+- 7 - [web缓存架构](/base/cashe)
+- 8 - [代码规范](/base/code)
+> 架构师体验
+- 1 - [15分钟学会vue项目改造成SSR](/other/SSR)
+- 2 - [手写一个webpack（loader、plugin）](/other/kwebpack)
+- 3 - [10分钟彻底搞懂https](/other/https)
+- 4 - [koa2源码解读和实现](/other/k-koa)
+- 5 - [更优雅的node部署(cluster,nginx,pm2,docker)](/other/docker)
+- 6 - [前端学数据结构，一文就够了](/other/dataStructures)
+- 7 - [常见的设计模式](/other/dataPattern)
+- 8 - [前端自动化测试](/other/test)
+- 9 - [AST语法树和babel原理](/other/ast)
 >Node基础
 - 1 - [搭建Node.js开发环境](/node/lesson1)
 - 2 - [Http模块](/node/lesson2)
@@ -35,25 +56,6 @@
 - 7 - [服务器编程](/node/lesson7)
 - 8 - [操作数据库](/node/lesson8)
 - 9 - [node爬虫-爱奇艺电影](/node/lesson9)
-> 前端大基建
-- 1 - [项目初始化](/base/k-cli)
-- 2 - [接口联调](/base/RAP)
-- 3 - [数据埋点分析](/base/GA)
-- 4 - [组件体系](/base/k-components)
-- 5 - [CI/CD云端构建发布](/base/Gitlab-cicd)
-- 6 - [性能错误监控方案](/base/sentry)
-- 7 - [web缓存架构](/base/cashe)
-- 8 - [代码规范](/base/code)
-> 其他
-- 1 - [15分钟学会vue项目改造成SSR](/other/SSR)
-- 2 - [手写一个webpack（loader、plugin）](/other/kwebpack)
-- 3 - [10分钟彻底搞懂https](/other/https)
-- 4 - [koa2源码解读和实现](/other/k-koa)
-- 5 - [更优雅的node部署(cluster,nginx,pm2,docker)](/other/docker)
-- 6 - [前端学数据结构，一文就够了](/other/dataStructures)
-- 7 - [常见的设计模式](/other/dataPattern)
-- 8 - [前端自动化测试](/other/test)
-- 9 - [AST语法树和babel原理](/other/ast)
 
 
 ## 联系作者
