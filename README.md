@@ -19,7 +19,7 @@
 - 4 - [nextTick更新机制](/vue/nextTick更新机制.md)
 - 5 - [vuex机制](/vue/vuex机制.md)
 >React源码
-- 1 - [从源码角度了解react工作原理](/react/code.md)
+- 1 - [从源码角度了解react工作原理](/react/code)
 >浏览器
 - 1 - [浏览器渲染过程剖析](/html/浏览器渲染过程剖析.md)
 - 2 - [js事件循环](/html/js事件循环.md)
