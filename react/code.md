@@ -75,6 +75,7 @@ render() {
 **ReactDOM.render** 实现
 
 ```
+// react-dom.js
 // vnode 虚拟dom节点
 // node dom节点
 
@@ -205,6 +206,7 @@ export default {render};
 
 
 ```
+// Component.js
 export default function Component(props) {
   this.props = props;
 }
@@ -294,7 +296,7 @@ Fiber的原理就是通过requestIdleCallback，这个api，把更新过程碎�
 Fiber实现：
 
 ```
-
+// react-dom.js
 // *
 // fiber 结构
 // type 类型
